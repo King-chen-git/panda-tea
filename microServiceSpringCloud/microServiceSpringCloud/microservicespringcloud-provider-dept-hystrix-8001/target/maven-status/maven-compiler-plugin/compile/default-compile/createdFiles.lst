@@ -1,0 +1,7 @@
+com\kingchen\springcloud\dao\impl\DeptDaoImpl.class
+com\kingchen\springcloud\controller\DeptController.class
+com\kingchen\springcloud\service\DeptService.class
+com\kingchen\springcloud\DeptProvider8001_Hystrix_App.class
+com\kingchen\springcloud\dao\DeptDao.class
+com\kingchen\springcloud\service\impl\DeptServiceImpl.class
+com\kingchen\springcloud\mapper\DeptMapper.class

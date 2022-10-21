@@ -1,0 +1,5 @@
+com\kingchen\springcloud\controller\DeptController_Consumer.class
+com\kingchen\springcloud\DeptConsumer80_App.class
+com\kingchen\myrule\RandomRule_KC.class
+com\kingchen\myrule\MySelfRule.class
+com\kingchen\springcloud\cfgbeans\ConfigBean.class

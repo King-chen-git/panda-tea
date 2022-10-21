@@ -64,6 +64,37 @@
 				<artifactId>log4j</artifactId>
 				<version>${log4j.version}</version>
 			</dependency>
+
+			<dependency>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.6</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.baomidou</groupId>
+				<artifactId>mybatis-plus-boot-starter</artifactId>
+				<version>3.4.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.baomidou</groupId>
+				<artifactId>mybatis-plus-generator</artifactId>
+				<version>3.4.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.baomidou</groupId>
+				<artifactId>mybatis-plus-support</artifactId>
+				<version>2.3.3</version>
+				<exclusions>
+					<exclusion>
+						<artifactId>guava</artifactId>
+						<groupId>com.google.guava</groupId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 
@@ -76,15 +107,16 @@
 			</resource>
 		</resources>
 		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-resources-plugin</artifactId>
-				<configuration>
-					<delimiters>
-						<delimit>$</delimit>
-					</delimiters>
-				</configuration>
-			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-resources-plugin</artifactId>-->
+<!--				<version>3.2.1</version>-->
+<!--				<configuration>-->
+<!--					<delimiters>-->
+<!--						<delimit>$</delimit>-->
+<!--					</delimiters>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 		</plugins>
 	</build>
 

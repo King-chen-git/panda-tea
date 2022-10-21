@@ -2,18 +2,20 @@ package com.atguigu.springcloud.entities;
 
 import java.io.Serializable;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 import lombok.experimental.Accessors;
 
 
-@NoArgsConstructor
+
 //@AllArgsConstructor
 @Data
 @Accessors(chain=true)
+@NoArgsConstructor
+@AllArgsConstructor
+@TableName(value = "DEPT")
 public class Dept implements Serializable// entity --orm--- db_table
 {
 	private Long 	deptno; // 主键

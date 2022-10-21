@@ -1,0 +1,7 @@
+spring:
+  redis:
+    host: 192.168.23.128 #redis服务地址
+    database: 0     #确定使用库
+    port: 6380      #redis 端口号
+
+

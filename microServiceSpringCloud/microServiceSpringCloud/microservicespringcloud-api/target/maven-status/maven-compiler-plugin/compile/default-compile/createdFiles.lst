@@ -1,0 +1,8 @@
+com\kingchen\springcloud\test\SpringcloudInterview.class
+com\kingchen\springcloud\entities\DeptDTO.class
+com\kingchen\springcloud\entities\result\Msg.class
+com\kingchen\springcloud\service\DeptClientServiceFallbackFactory.class
+com\kingchen\springcloud\entities\result\Response.class
+com\kingchen\springcloud\SpringCloudApiApplication.class
+com\kingchen\springcloud\service\DeptClientServiceFallbackFactory$1.class
+com\kingchen\springcloud\service\DeptClientService.class
